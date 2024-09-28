@@ -7,11 +7,11 @@ Avec la complexité croissante des projets logiciels, la documentation du code, 
 ![ProjetNLPArchitecture](https://github.com/user-attachments/assets/ab8df532-08d4-4624-84c5-9d031075a7df)
 <br>
 # Models
-Pour analyser et prédire les commentaires, nous utilisons des modèles de pointe
+Pour analyser et prédire les commentaires, nous utilisons des modèles de pointe (ou state-of-the-art models en anglais)
 comme CodeBERT, BART et CodeT5, qui font partie de l'écosystème Hugging
-Face. Ces modèles sont spécifiquement choisis pour leur capacité à comprendre
+Face :hugs:. Ces modèles sont spécifiquement choisis pour leur capacité à comprendre
 et générer du langage naturel à partir d'entrées de code, ce qui les rend idéaux
 pour la tâche de génération automatique de commentaires de code. Ce pipeline
 représente une approche robuste pour résoudre l'un des défis clés du
 développement logiciel : améliorer la lisibilité et la maintenabilité du code grâce à
-une documentation automatisée.
+une documentation automatisée :pencil:.
