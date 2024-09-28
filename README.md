@@ -14,4 +14,6 @@ et générer du langage naturel à partir d'entrées de code, ce qui les rend id
 pour la tâche de génération automatique de commentaires de code. Ce pipeline
 représente une approche robuste pour résoudre l'un des défis clés du
 développement logiciel : améliorer la lisibilité et la maintenabilité du code grâce à
-une documentation automatisée :pencil:.
+une documentation automatisée :pencil:.(Vous pouvez trouver plus de details sur les le models utilises dans notre rapport)
+# Remerciement 
+Nous tenons à exprimer notre profonde gratitude à @cherradi-mohamed-- pour son encadrement précieux tout au long de notre stage d'initiation. Grâce à ses conseils avisés, son soutien constant et son expertise, nous avons pu acquérir des connaissances inestimables et approfondir notre compréhension dans le domaine. Son engagement et sa disponibilité ont grandement contribué à la réussite de ce stage. Nous lui sommes sincèrement reconnaissants pour l'ensemble de son accompagnement.
