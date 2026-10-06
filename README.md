@@ -1,19 +1,130 @@
-**Salut tous le monde :blush:**
-# Introduction
-&nbsp;&nbsp;&nbsp;L'intelligence artificielle (IA) a surpassé l'informatique traditionnelle en matière de gestion qualitative et prédictive des données, grâce à l'accessibilité accrue des ressources de calcul :computer:. Cela a permis aux développeurs de créer et d'améliorer des modèles d'apprentissage automatique. Avec cette facilité d'accès à la puissance de calcul, la demande de professionnels compétents en IA et en machine learning 🤖a fortement augmenté. Bien que les domaines de la science des données:chart_with_downwards_trend:, du machine learning et de l'IA soient liés et se chevauchent, ils restent distincts et sont utilisés pour des cas d'étude spécifiques:books:.</br>
-Avec la complexité croissante des projets logiciels, la documentation du code, notamment via des commentaires, devient un défi majeur. Leur rédaction est souvent négligée, entraînant des problèmes de compréhension, de collaboration, et de maintenance. La génération automatique de commentaires pour le code Java peut améliorer la qualité du code, mais pose plusieurs défis : comprendre le contexte du code, garantir la précision et la pertinence des commentaires, adapter le modèle aux différents styles de programmation, et évaluer la qualité des commentaires générés. Ce projet explore des solutions basées sur l'IA pour surmonter ces obstacles.
-</br>
-# Architecture du projet
-![ProjetNLPArchitecture](https://github.com/user-attachments/assets/ab8df532-08d4-4624-84c5-9d031075a7df)
-<br>
-# Models
-Pour analyser et prédire les commentaires, nous utilisons des modèles de pointe (ou state-of-the-art models en anglais)
-comme CodeBERT, BART et CodeT5, qui font partie de l'écosystème Hugging
-Face :hugs:. Ces modèles sont spécifiquement choisis pour leur capacité à comprendre
-et générer du langage naturel à partir d'entrées de code, ce qui les rend idéaux
-pour la tâche de génération automatique de commentaires de code. Ce pipeline
-représente une approche robuste pour résoudre l'un des défis clés du
-développement logiciel : améliorer la lisibilité et la maintenabilité du code grâce à
-une documentation automatisée :pencil:.(Vous pouvez trouver plus de details sur les le models utilises dans notre rapport)
-# Remerciement 
-Nous tenons à exprimer notre profonde gratitude à [@cherradii](https://github.com/cherradii) pour son encadrement précieux tout au long de notre stage d'initiation. Grâce à ses conseils avisés, son soutien constant et son expertise, nous avons pu acquérir des connaissances inestimables et approfondir notre compréhension dans le domaine. Son engagement et sa disponibilité ont grandement contribué à la réussite de ce stage. Nous lui sommes sincèrement reconnaissants pour l'ensemble de son accompagnement.
+<div align="center">
+
+# 💬 Auto-Commentaire des Codes Java
+
+**Automatic comment generation for Java source code, developed during a research initiation internship at Abdelmalek Essaâdi University**
+
+![Java](https://img.shields.io/badge/Java-Source_Code_Analysis-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Research](https://img.shields.io/badge/Research-Initiation_Internship-6A5ACD?style=for-the-badge)
+![Domain](https://img.shields.io/badge/Domain-Software_Documentation-2E8B57?style=for-the-badge)
+<!-- Add badges for your actual stack, e.g. Python, NLP, LLM, JavaParser -->
+
+[About](#-about) • [Research Context](#-research-context) • [Approach](#-approach) • [Getting Started](#-getting-started) • [Roadmap](#-roadmap)
+
+</div>
+
+---
+
+## 📖 About
+
+Writing and maintaining comments is essential for code readability and maintenance, yet it is often neglected. This project explores the **automatic generation of comments for Java code**, in order to make source code easier to understand, reuse and maintain.
+
+Given a Java source file, the tool produces explanatory comments describing [classes / methods / key statements, adjust to your project].
+
+---
+
+## 🎓 Research Context
+
+| | |
+|---|---|
+| **Type** | Research initiation internship |
+| **Institution** | Abdelmalek Essaâdi University |
+| **Field** | Source code analysis and automatic documentation |
+| **Supervisor** | [Supervisor name] |
+| **Author** | Hanae KHAYYI |
+
+---
+
+## ✨ Features
+
+| | Module | Description |
+|---|---|---|
+| 🔍 | **Code analysis** | Parsing and analysis of Java source files |
+| 💬 | **Comment generation** | Automatic generation of comments in natural language |
+| 📝 | **Commented output** | Source code returned with the generated comments inserted |
+| [icon] | [Feature] | [Add the features that are actually implemented] |
+
+---
+
+## 🧱 Approach
+
+```mermaid
+flowchart LR
+    A[Java source code] --> B[Analysis / parsing]
+    B --> C[Comment generation]
+    C --> D[Commented Java code]
+```
+
+> Replace this diagram with your real pipeline (e.g. templates, NLP model, LLM, rule-based analysis) and describe each step in one or two sentences.
+
+**Example**
+
+```java
+// Before
+public int add(int a, int b) {
+    return a + b;
+}
+
+// After
+/**
+ * [Generated comment, paste a real output from your tool]
+ */
+public int add(int a, int b) {
+    return a + b;
+}
+```
+
+---
+
+## 🛠️ Tech Stack
+
+`Java` · [Libraries / frameworks used] · [IDE / build tool]
+
+---
+
+## 🚀 Getting Started
+
+**Prerequisites:** JDK [version], [other requirements]
+
+```bash
+# Clone
+git clone https://github.com/hanaekhayyi/Auto-commentaire-des-codes-java-.git
+cd Auto-commentaire-des-codes-java-
+
+# Compile and run (adapt to your project)
+javac [MainClass].java
+java [MainClass]
+```
+
+---
+
+## 📊 Results & Limitations
+
+- **Results:** [what works well, evaluation method, sample outputs]
+- **Limitations:** [what the tool does not handle yet]
+
+---
+
+## 🧭 Roadmap
+
+- [ ] Support more Java constructs (generics, lambdas, annotations)
+- [ ] Improve the quality and relevance of generated comments
+- [ ] Add an evaluation protocol on open-source Java projects
+- [ ] Provide a command-line interface or IDE plugin
+- [ ] Add unit tests and a `README` usage guide
+
+---
+
+<div align="center">
+
+### 👩‍💻 Author
+
+**Hanae KHAYYI** · Data & AI Engineering Student
+
+*Research initiation internship, Abdelmalek Essaâdi University*
+
+[![GitHub](https://img.shields.io/badge/GitHub-@hanaekhayyi-181717?style=flat-square&logo=github)](https://github.com/hanaekhayyi)
+
+⭐ *If you found this project useful, feel free to star the repository.*
+
+</div>
